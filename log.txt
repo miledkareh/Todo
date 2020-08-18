@@ -1,0 +1,6 @@
+
+2020-06-04 08:05:54 : Access denied for user 'root'@'localhost' (using password: NO)
+2020-06-04 08:13:25 : Access denied for user 'root'@'localhost' (using password: NO)
+2020-06-04 08:13:29 : Access denied for user 'root'@'localhost' (using password: NO)
+2020-06-04 08:13:46 : Access denied for user 'root'@'localhost' (using password: NO)
+2020-06-04 08:14:52 : Access denied for user 'root'@'localhost' (using password: NO)
