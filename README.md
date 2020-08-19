@@ -4,6 +4,7 @@
  It Has 2 main projects:
     - API which contains all the Api of the application
     - Front end
+    - Test.doc file which contains the remaining exersices.
 
 Developed using PHP, JS, Jquery, Bootstrap and Lumen for the APIs.
 Upload it on any server Xampp, wamp, Mamp ...
@@ -123,3 +124,4 @@ Request:
 Request:
     - Http request type POST
     - Header: Authorization Bearer token
+
