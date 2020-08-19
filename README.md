@@ -11,6 +11,7 @@ Developed using PHP, JS, Jquery, Bootstrap and Lumen for the APIs.
 Upload it on any server Xampp, wamp, Mamp ...
 Import database todo.sql into your phpmyadmin
 Access Todo/API/.env and change the database connection
+Access app->vendor->laravel->lumen-framework->config: and change the "unix_socket" if you're using a server other than MAMP, the current one is for MAMP server.
 
 To run the application open localhost/Todo : a login page must appear / username: user | password: password.
 
