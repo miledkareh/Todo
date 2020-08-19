@@ -12,7 +12,7 @@ Upload it on any server Xampp, wamp, Mamp ...
 Import database todo.sql into your phpmyadmin
 Access Todo/API/.env and change the database connection
 
-To run the application open localhost/Todo : a login page must appear.
+To run the application open localhost/Todo : a login page must appear / username: user | password: password.
 
 Make sure that the port is 80. If not,make sure to include it in url (localhost:8888/todo)
 
@@ -94,6 +94,18 @@ Request:
         'user_id'=>$userid
      - Header: Authorization Bearer token
 
+- Update Task : http://localhost:8000/api/updateTask/
+
+Request: 
+    - Http request type POST
+    -Parameters : 
+        'Name' => $Name,
+        'Description' => $Description,
+        'Dat'=>$Dat,
+        'Status'=>$Status,
+        'Category'=>$Category
+     - Header: Authorization Bearer token
+
 - Get Tasks by Date : http://localhost:8000/api/getTasksByDate?id=1&date=$date&category=$category&status=$status (the id is the user loged in)
 
 Request: 
@@ -120,7 +132,7 @@ Request:
      - Parameter: Name
      - Header: Authorization Bearer token
 
--To Update a category : http://localhost:8000/api/deleteCategory/1'
+-To Delete a category : http://localhost:8000/api/deleteCategory/1'
 
 Request:
     - Http request type POST
