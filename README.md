@@ -4,7 +4,8 @@
  It Has 2 main projects:
     - API which contains all the Api of the application
     - Front end
-    - Test.doc file which contains the remaining exersices.
+    - Test.pdf file which contains the remaining exersices.
+    -todo.sql (database)
 
 Developed using PHP, JS, Jquery, Bootstrap and Lumen for the APIs.
 Upload it on any server Xampp, wamp, Mamp ...
